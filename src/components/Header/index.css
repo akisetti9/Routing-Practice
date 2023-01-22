@@ -1,0 +1,78 @@
+/* Write your CSS code here */
+.nav-header {
+  height: 120px;
+  padding-left: 48px;
+  padding-right: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .nav-header {
+    padding: 0px;
+  }
+}
+.nav-menu {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 0px;
+  color: #551e53;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  font-size: 24px;
+}
+@media screen and (max-width: 767px) {
+  .nav-link {
+    font-size: 16px;
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 12px;
+}
+.logo-size {
+  width: 25%;
+}
+.logo-title {
+  text-decoration: none;
+  margin: 10px;
+  color: #551e53;
+  font-family: 'Roboto';
+  font-weight: bolder;
+}
+@media screen and (max-width: 767px) {
+  .logo-title {
+    font-size: 16px;
+  }
+}
+.sub-title {
+  color: white;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+/* @media screen and (max-width: 767px) {
+  .logo-title {
+    font-family: 'Roboto';
+    font-size: 34px;
+  }
+} */
